@@ -1,0 +1,2 @@
+# SLogging
+Logging with serilog
