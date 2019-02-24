@@ -2,3 +2,5 @@
 /.vs/SLogging/v15/Server/sqlite3
 /SLogging.Core/bin
 /SLogging.Core/obj
+/SLogging.Console/bin
+/SLogging.Console/obj
