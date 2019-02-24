@@ -1,2 +1,4 @@
 ﻿/.vs/SLogging/v15/.suo
 /.vs/SLogging/v15/Server/sqlite3
+/SLogging.Core/bin
+/SLogging.Core/obj
