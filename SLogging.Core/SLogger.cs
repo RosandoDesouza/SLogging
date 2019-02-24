@@ -44,9 +44,9 @@ namespace SLogging.Core
             _errorLogger.Write(LogEventLevel.Error, "{@SLogDetails}", errorLogDetails);
         }
 
-        public static void WriteDiagnostic(SLogDetails duagnosticLogDetails)
+        public static void WriteDiagnostic(SLogDetails diagnosticLogDetails)
         {
-            _diagnosticLogger.Write(LogEventLevel.Information, "{@SLogDetails}", duagnosticLogDetails);
+            _diagnosticLogger.Write(LogEventLevel.Information, "{@SLogDetails}", diagnosticLogDetails);
         }
     }
 }
