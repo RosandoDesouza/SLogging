@@ -26,7 +26,7 @@ namespace SLogging.Core
         //Who
         public string UserId { get; set; }
 
-        public string UserName { get; set; }
+        public string Username { get; set; }
 
         public int CustomerId { get; set; }
 
