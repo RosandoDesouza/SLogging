@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLogging.Core", "SLogging.Core\SLogging.Core.csproj", "{4C3F5171-7511-4814-B56B-500185AF6DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLogging.Console", "SLogging.Console\SLogging.Console.csproj", "{1B284542-2732-42DB-A788-51A06B56FF5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLogging.Console", "SLogging.Console\SLogging.Console.csproj", "{1B284542-2732-42DB-A788-51A06B56FF5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,6 @@
 ﻿using Serilog;
 using Serilog.Events;
+using SLogging.Core.Sink.SQlite;
 
 namespace SLogging.Core
 {
@@ -22,6 +23,7 @@ namespace SLogging.Core
 
             _errorLogger = new LoggerConfiguration()
                 .WriteTo.Async(x => x.File(path: "error.txt"))
+                .WriteTo.Async(x => x.SQLite("Log.db"))
                 .CreateLogger();
 
             _diagnosticLogger = new LoggerConfiguration()

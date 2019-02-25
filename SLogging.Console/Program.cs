@@ -28,6 +28,8 @@ namespace SLogging.Console
 
             logDetails = GetSLogDetails("Stoping Application", null);
             SLogger.WriteDiagnostic(logDetails);
+
+            System.Console.ReadKey();
         }
 
         private static SLogDetails GetSLogDetails(string message, Exception exception)
